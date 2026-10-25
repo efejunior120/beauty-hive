@@ -585,13 +585,14 @@ em {
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--border-gold);
   background-color: var(--bg-card);
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 4 / 5.2;
 }
 
 .hero-img-frame img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 18%;
   transition: transform 0.8s ease;
 }
 
